@@ -7,5 +7,5 @@ const additionalInfoSchema = new mongoose.Schema({
     personal_goals: { type: String }
 });
 
-const AdditionalInfoModel = mongoose.model(Collections.AdditionalInfoModel, additionalInfoSchema);
+const AdditionalInfoModel = mongoose.model(Collections.ADDITIONAL_INFO, additionalInfoSchema);
 export default AdditionalInfoModel;
