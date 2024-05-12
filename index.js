@@ -22,15 +22,11 @@ app.listen(PORT, () =>{
     console.log("Sever is running...")
 })
 
-app.use(express.json());
 
-// Sử dụng các routes nehhh
 app.use('/api/users', userRoutes);
 app.use('/api/profiles', profileRoutes);
 app.use('/api/work-experiences', workExperienceRoutes);
 app.use('/api/additional-infos', additionalInfoRoutes);
 
-app.listen(8080, () => console.log(`Server is running on port ${8080}`));
 
-// mongodb+srv://btap:hehehe
-// @btap.wqdsi5z.mongodb.net/?retryWrites=true&w=majority&appName=btap
+
